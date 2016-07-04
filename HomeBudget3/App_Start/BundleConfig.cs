@@ -12,10 +12,11 @@ namespace HomeBudget3
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/HomeBudget")
+                .Include("~/Scripts/HomeBudget.js")
                 .IncludeDirectory("~/Scripts/Controllers", "*.js")
-                .Include("~/Scripts/HomeBudget.js"));
+                );
 
-            BundleTable.EnableOptimizations = true;
+            BundleTable.EnableOptimizations = false;
         }
     }
 }
