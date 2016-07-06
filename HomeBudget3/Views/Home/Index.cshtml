@@ -1,17 +1,12 @@
 ﻿<!DOCTYPE html>
-
+https://github.com/johnpapa/angular-styleguide
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
 <body ng-app="HomeBudget">
-    <div ng-controller="CategoriesController as categories">
-        <div ng-repeat="item in categories.vw.list">
-            <h3>{{item.name}}</h3>
-            <span>{{item.id}}</span>
-        </div> 
-    </div>
+    <categories-list></categories-list>
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
         @Scripts.Render("~/bundles/HomeBudget")
 </body>

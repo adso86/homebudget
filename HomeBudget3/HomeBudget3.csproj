@@ -241,8 +241,10 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="Scripts\Controllers\Categories.js" />
+    <Content Include="Scripts\Settings\categories.controller.js" />
     <Content Include="Scripts\HomeBudget.js" />
+    <Content Include="Scripts\Settings\categories.directive.js" />
+    <Content Include="Scripts\Settings\categories.service.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -259,6 +261,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Scripts\Client\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

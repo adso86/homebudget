@@ -13,7 +13,10 @@ namespace HomeBudget3
 
             bundles.Add(new ScriptBundle("~/bundles/HomeBudget")
                 .Include("~/Scripts/HomeBudget.js")
-                .IncludeDirectory("~/Scripts/Controllers", "*.js")
+                .IncludeDirectory("~/Scripts/Settings", "*.js")
+                .IncludeDirectory("~/Scripts/Client", "*.js")
+                
+                
                 );
 
             BundleTable.EnableOptimizations = false;
